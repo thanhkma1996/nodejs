@@ -282,7 +282,7 @@ button::-moz-focus-inner,
   border-style: none;
 }
 
-input[type="radio"],
+input[typle="checkbox"],
 input[type="checkbox"] {
   box-sizing: border-box;
   padding: 0;
@@ -3394,9 +3394,9 @@ input[type="button"].btn-block {
   margin-bottom: 0;
 }
 
-.btn-group-toggle > .btn input[type="radio"],
+.btn-group-toggle > .btn input[typle="checkbox"],
 .btn-group-toggle > .btn input[type="checkbox"],
-.btn-group-toggle > .btn-group > .btn input[type="radio"],
+.btn-group-toggle > .btn-group > .btn input[typle="checkbox"],
 .btn-group-toggle > .btn-group > .btn input[type="checkbox"] {
   position: absolute;
   clip: rect(0, 0, 0, 0);
@@ -3534,7 +3534,7 @@ input[type="button"].btn-block {
   border-radius: 0.25rem;
 }
 
-.input-group-text input[type="radio"],
+.input-group-text input[typle="checkbox"],
 .input-group-text input[type="checkbox"] {
   margin-top: 0;
 }
