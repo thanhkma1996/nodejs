@@ -1,0 +1,33 @@
+.wrapper {
+    width: 600px;
+    margin:0 auto;
+}
+
+#left , #right {
+    min-height: 300px;
+}
+#chatForm {
+    display: flex;
+    border : 1px solid #ddaadd;
+}
+#left {
+    width:30%;
+    background: paleturquoise;
+    
+}
+#boxtitle {
+    text-align: center;
+    line-height: 40px;
+    border-bottom: 1px solid #ddaadd;
+}
+#right {
+    width:70%;
+    float: left;
+    background: gainsboro;
+}
+
+#listMessages{
+    height: 300px;
+    border: 1px solid #ddaadd;
+    background: peru;
+}

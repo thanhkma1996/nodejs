@@ -1,0 +1,23 @@
+#left {
+    width: 30%;
+    float: left;
+    border:1px solid #dadadd;
+    min-height: 300px;
+    background: powderblue;
+}
+#right {
+    width: 70%;
+    border:1px solid #dadadd;
+    min-height: 300px;
+    background: rosybrown;
+}
+#roomhientai {
+    width: 100px;
+    color:red;
+    text-transform: uppercase;
+    background: yellow;
+    line-height: 40px;
+}
+.room {
+    display: flex;
+}
