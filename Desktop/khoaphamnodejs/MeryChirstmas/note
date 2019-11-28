@@ -1,0 +1,6 @@
+Express module quan trojng nhaats để làm web nodejs
+EJS để xuất biết sử dụng vòng lặp lấy csdl câu lệnh điều kiện phần View
+Body-parser form nhập dữ liệu dạng post
+Pótgres đây là csdl
+Multer dùng để upload file
+Trên đây là những module cần dùng đêr làm dự án
