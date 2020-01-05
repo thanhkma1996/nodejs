@@ -4,6 +4,7 @@
         <title>Khoa Pham WebRTC</title>
         <script src="jquery.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/peerjs@0.3.20/dist/peer.min.js"></script>
+        <script src="socket.io.js"></script>
     </head>
     <body>
         <h3 id="mypeer">Your ID:</h3>
@@ -11,16 +12,12 @@
         <br /><br />
         <video id="remoteStream" width="300" controls></video>
         <br /><br />
-        <input type="text" id="removeId" placeholder="Remove ID">
+        <input type="text" id="remoteId" placeholder="Remove ID">
         <button id="btncall">Call</button>
+        <br>
+        <input type="text" id="textUsername" placeholder="Enter your name">
+        <button id="btnsigup">Sign up</button>
+
     </body>
     <script src="main.js"></script>
-    <script>
-    // var peer = new Peer({key: 'lwjd5qra8257b9'});
-
-    // peer.on('open', function(id) {
-    //     console.log('My peer ID is: ' + id);
-    // });
-
-    </script>
 </html>
