@@ -29,6 +29,9 @@ socket.on("have-user-is-typping",function(data){
     $("#notification").html("<img src='1.gif'>" + data);
 });
 
+// emoji
+
+
 socket.on("have-user-stop-typping",function(data){
     $("#notification").html(data);
 });
